@@ -25,3 +25,7 @@ body {
   display: block;
   width: 100%;
 }
+
+.wrapper {
+  background-color: #e5c30a;
+}
