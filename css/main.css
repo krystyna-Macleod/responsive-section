@@ -20,3 +20,8 @@ html {
 body {
   font-family: "Noto Sans", sans-serif;
 }
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
