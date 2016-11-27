@@ -34,7 +34,7 @@ section {
 .section-letter {
   float: left;
   width: 44%;
-  transform: translate(15%);
+  transform: translateX(15%);
 }
 
 .section-icon {
@@ -44,7 +44,7 @@ section {
 }
 
 .wrapper {
-  margin: 0;
+  margin: auto;
   overflow: hidden;
   max-width: 500px;
 }
@@ -56,10 +56,11 @@ section {
 section h2 {
   display: block;
   font-weight: bold;
-  margin: 0;
+  margin: .3em;
+  padding-left: 0;
 }
 
 section p {
-  margin: 0;
-  margin-top: .5em;
+  margin: .3em;
+  padding: 0 .3em .5em 0;
 }
