@@ -80,6 +80,8 @@ section p {
 
   html {
     font: normal 110%/1.4 "Noto Sans", sans-serif;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   .section-letter {
@@ -96,14 +98,6 @@ section p {
     display: inline-block;
     padding: 1.3rem;
     padding-top: 0;
-  }
-
-  section h2 {
-    font-size: 110%;
-  }
-
-  section p {
-    line-height: 1.4;
   }
 
 }
@@ -112,6 +106,8 @@ section p {
 
   html {
     font: normal 120%/1.5 "Noto Sans", sans-serif;
+    line-height: 1.4;
+    font-size: 120%;
   }
 
   .section-letter {
@@ -130,20 +126,14 @@ section p {
     padding-top: 0;
   }
 
-  section h2 {
-    font-size: 120%;
-  }
-
-  section p {
-    line-height: 1.4;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
     font: normal 130%/1.5 "Noto Sans", sans-serif;
+    font-size: 130%;
+    line-height: 1.5;
   }
 
   .wrapper {
@@ -166,14 +156,6 @@ section p {
     left: 50%;
     max-width: 50em;
     bottom: 15px;
-  }
-
-  section h2 {
-    font-size: 130%;
-  }
-
-  section p {
-    line-height: 1.5;
   }
 
 }
