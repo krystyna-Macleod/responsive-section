@@ -33,13 +33,13 @@ section {
 
 .section-letter {
   float: left;
-  width: 45%;
+  width: 40%;
   transform: translate(10%);
 }
 
 .section-icon {
   float: right;
-  width: 45%;
+  width: 40%;
   transform: translate(-10%);
 }
 
