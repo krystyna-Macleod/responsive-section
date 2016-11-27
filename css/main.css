@@ -94,15 +94,48 @@ section p {
 
   .section-body {
     display: inline-block;
-    padding: 1.4rem;
+    padding: 1.3rem;
     padding-top: 0;
   }
 
   section h2 {
-    display: block;
-    font-weight: bold;
     font-size: 110%;
-    margin: 0;
+  }
+
+  section p {
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font: normal 120%/1.5 "Noto Sans", sans-serif;
+  }
+
+  .section-letter {
+    width: 36%;
+    transform: translate(30%);
+  }
+
+  .section-icon {
+    width: 36%;
+    transform: translate(-30%);
+  }
+
+  .section-body {
+    display: inline-block;
+    padding: 1.3rem;
+    padding-top: 0;
+  }
+
+  section h2 {
+    font-size: 120%;
+  }
+
+  section p {
+    line-height: 1.;
   }
 
 }
