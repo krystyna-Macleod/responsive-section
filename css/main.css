@@ -34,17 +34,19 @@ section {
 }
 
 .section-letter {
+    padding-top: 1.3rem;
   float: left;
-  width: 40%;
+  width: 44%;
   max-width: 43em;
-  transform: translate(17%);
+  transform: translate(14%);
 }
 
 .section-icon {
+  padding-top: 1.3rem;
   float: right;
-  width: 40%;
+  width: 44%;
   max-width: 45em;
-  transform: translate(-17%);
+  transform: translate(-14%);
 }
 
 .wrapper {
