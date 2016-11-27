@@ -35,22 +35,29 @@ section {
 
 .section-letter {
   float: left;
-  width: 50%;
+  width: 40%;
+  max-width: 43em;
+  transform: translate(17%);
 }
 
 .section-icon {
   float: right;
-  width: 50%;
+  width: 40%;
+  max-width: 45em;
+  transform: translate(-17%);
 }
 
 .wrapper {
   margin: 0;
   max-width: 45em;
   overflow: hidden;
+  padding: 0;
 }
 
 .section-body {
+  display: inline-block;
   padding: 1rem;
+  padding-top: 0;
 }
 
 section h2 {
@@ -62,4 +69,7 @@ section h2 {
 
 section p {
   display: block;
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
 }
