@@ -135,7 +135,46 @@ section p {
   }
 
   section p {
-    line-height: 1.;
+    line-height: 1.4;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font: normal 130%/1.5 "Noto Sans", sans-serif;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .section-body {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    max-width: 50em;
+    bottom: 15px;
+  }
+
+  section h2 {
+    font-size: 130%;
+  }
+
+  section p {
+    line-height: 1.5;
+  }
+
+  .section-letter {
+    width: 15%;
+    max-width: 45em;
+  }
+
+  .section-icon {
+    width: 15%;
+    max-width: 45em;
   }
 
 }
