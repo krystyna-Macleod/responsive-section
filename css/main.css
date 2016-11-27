@@ -34,13 +34,13 @@ section {
 .section-letter {
   float: left;
   width: 44%;
-  transform: translate(10%);
+  transform: translate(15%);
 }
 
 .section-icon {
   float: right;
   width: 44%;
-  transform: translate(-10%);
+  transform: translate(-15%);
 }
 
 .wrapper {
