@@ -44,23 +44,19 @@ section {
 }
 
 .wrapper {
-  margin: auto;
   overflow: hidden;
-  max-width: 500px;
+  max-width: 45em;
 }
 
 .section-body {
-  margin: .75em;
+  margin: 1.4em;
+  padding: 1rem;
 }
 
 section h2 {
   display: block;
   font-weight: bold;
-  margin: .3em;
-  padding-left: 0;
+  font-size: 1.5rem;
 }
 
-section p {
-  margin: .3em;
-  padding: 0 .3em .5em 0;
-}
+section p
