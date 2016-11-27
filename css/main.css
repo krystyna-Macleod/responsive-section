@@ -23,7 +23,9 @@ body {
 }
 
 section {
-    background-color: #e5c30a;
+  display: block;
+  background-color: #e5c30a;
+  padding: 1.3rem;
 }
 
 .img-flex {
@@ -33,23 +35,21 @@ section {
 
 .section-letter {
   float: left;
-  width: 44%;
-  transform: translateX(15%);
+  width: 50%;
 }
 
 .section-icon {
   float: right;
-  width: 44%;
-  transform: translate(-15%);
+  width: 50%;
 }
 
 .wrapper {
-  overflow: hidden;
+  margin: 0;
   max-width: 45em;
+  overflow: hidden;
 }
 
 .section-body {
-  margin: 1.4em;
   padding: 1rem;
 }
 
@@ -57,6 +57,9 @@ section h2 {
   display: block;
   font-weight: bold;
   font-size: 1.5rem;
+  margin: 0;
 }
 
-section p
+section p {
+  display: block;
+}
