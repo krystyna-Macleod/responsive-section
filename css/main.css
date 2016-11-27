@@ -18,7 +18,12 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: "Noto Sans", sans-serif;
+}
+
+section {
+    background-color: #e5c30a;
 }
 
 .img-flex {
@@ -26,6 +31,35 @@ body {
   width: 100%;
 }
 
+.section-letter {
+  float: left;
+  width: 45%;
+  transform: translate(10%);
+}
+
+.section-icon {
+  float: right;
+  width: 45%;
+  transform: translate(-10%);
+}
+
 .wrapper {
-  background-color: #e5c30a;
+  margin: 0;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.section-body {
+  margin: .75em;
+}
+
+section h2 {
+  display: block;
+  font-weight: bold;
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+  margin-top: .5em;
 }
