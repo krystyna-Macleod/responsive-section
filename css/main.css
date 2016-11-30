@@ -51,7 +51,7 @@ section {
 }
 
 .wrapper {
-  margin: 1.4px;
+  margin: 0;
   max-width: 45em;
   overflow: hidden;
   padding: 0;
